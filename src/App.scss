@@ -1,0 +1,62 @@
+@import "styles/base";
+
+.app {
+  .app-content{
+    margin: 25px;
+  }
+  
+  h4{
+    color: $dark-green-color;
+    font-weight: 700;
+  }
+  img {
+    max-width: 500px;
+    border: 1px solid $dark-green-color;
+    margin-bottom: 15px;
+  }
+  .app-header-logo{
+    max-height: 80px;
+    border: none;
+  }
+
+ 
+}
+.password-hinter {
+  margin-top: 1px;
+  height: 5px;
+  border-radius: 10px;
+}
+
+.password-hinter-medium {
+  width: 50%;
+  background-color: yellow;
+}
+.password-hinter-good {
+  width: 100%;
+  background-color: green;
+}
+p{
+  color: $text-color;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+label {
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+
+.password-eye svg{
+  position: absolute;
+  top: 50%;
+  right: 25px;
+}
+
+.button-left {
+  background-color: transparent;
+  box-shadow: none;
+  outline: none;
+  border: 0;
+  font-weight: 500;
+
+}

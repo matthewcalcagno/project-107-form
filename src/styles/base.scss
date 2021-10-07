@@ -1,0 +1,112 @@
+$text-color: #313131;
+$step-color: #788f9c;
+$step-hover-color: #3b6a86;
+$green-color: #1ec86c;
+$light-green-color: #9cdcb9;
+$dark-green-color: #07542a;
+
+$white: #FFFFFF;
+$black: #000000;
+$red: red;
+
+
+.header {
+    background-color: $light-green-color;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+.step-bridge {
+    height: 5px;
+    width: 50px;
+    margin-top: 20px;
+}
+
+
+.step {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.steps-passed {
+    background-color: $dark-green-color;
+}
+.steps-not-passed {
+    background-color: $step-color;
+
+}
+button {
+    border: 0;
+}
+
+.w-full {
+    width: 100%;
+}
+.w-half {
+    width: 50%;
+}
+
+.first-logo  {
+    text-align: center;
+    img {
+        width: 300px;
+    }
+
+
+}
+
+.relative {
+    position: relative
+}
+.button-right {
+    position: absolute;
+    right: 0;
+}
+.button-right:disabled {
+    background-color: gray;
+}
+
+.button-right {
+    color: white;
+    font-weight: 500;
+    padding: 7px;
+    padding-left: 10px;
+}
+.button-right-bg {
+    background-color: $dark-green-color;
+}
+
+.button-right-no-bg {
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+    border: 0;
+    font-weight: 600;
+    color: black !important
+}
+
+
+.content {
+    margin-top: 50px;
+}
+
+.title-bar {
+    width: 90px;
+    height: 5px;
+    border-radius: 20px;
+    background-color: $light-green-color;
+}
+
+.word-counter {
+    font-size: 16px; 
+    position: absolute;
+    right: 0;
+}
+.margin-top-50 {
+    margin-top: 50px;
+}

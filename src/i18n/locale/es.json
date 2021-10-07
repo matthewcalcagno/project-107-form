@@ -1,0 +1,20 @@
+{
+    "volver": "Volver al inicio",
+    "atras": "Atras",
+    "siguiente": "Siguiente",
+    "crear usuario": "Crea tu usuario",
+    "crear contraseña": "Crear tu contraseña",
+    "Repite tu contraseña": "Repite tu contraseña",
+    "hint": "Tambien puedes crear una pista que te ayude a recordar tu contraseña",
+    "crear pista": "Crea tu pista para recordar tu contraseña (opcional)",
+    "cuenta creada": "La cuenta se creó correctamente!",
+    "introduce usuario": "Introduce tu usuario",
+    "page.1.title": "Qué deberá realizar?",
+    "page.1.text1": "En la primer pestaña, deberá confirmar que es mayor de edad y que acepta el tratamiento de sus datos según la politica de datos vigentes.",
+    "page.1.text2": "En la segunda pestaña, deberá crear un usuario, una contraseña y una pista para recordar la contraseña (como dato opcional)",
+    "page.1.text3": "En tercer lugar, deberá visualizarse el mensaje de éxito de creación",
+    "page.1.consent": "Confirma que es mayor de edad, y acepto el tratamiento de sus datos según la politica de protección de datos vigente."
+
+
+
+  }
