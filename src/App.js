@@ -8,7 +8,7 @@ import Header from './components/Header';
 import './i18n/config'
 
 const App = () => {
-    const [steps, setSteps] = useState(3);
+    const [steps, setSteps] = useState(1);
     const value = {steps, setSteps};
 
     const renderSteps = () => {
