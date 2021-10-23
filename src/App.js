@@ -28,7 +28,7 @@ const App = () => {
         <AppContext.Provider value={value}>
             <Header />
             <div className="container">
-               {steps !== 3 &&  <div><h1 style={{marginTop: '20px'}}>Test Frontend Wheel Hub</h1> <div className="title-bar" /></div> }
+               {steps !== 3 &&  <div><h1 style={{marginTop: '20px'}}>React Form</h1> <div className="title-bar" /></div> }
                
                 <div className="content">
                     {renderSteps()}

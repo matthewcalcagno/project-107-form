@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Footer from "../components/Footer";
-import Logo from "../assets/img/Logotipo-Vertical-Verde-Alta.png";
 import { useTranslation } from "react-i18next";
 
 const FirstStep = () => {
@@ -8,10 +7,6 @@ const FirstStep = () => {
   const [acceptTerms, setAcceptTerms] = useState(false);
   return (
     <div className="relative">
-      <div className="first-logo">
-        <img src={Logo} alt="Main logo" />
-      </div>
-
       <h2>{t("page.1.title")}</h2>
       <p>{t("page.1.text1")}</p>
       <p>{t("page.1.text2")}</p>
